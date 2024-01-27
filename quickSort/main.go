@@ -9,7 +9,7 @@ func quickSort(arr arrayType) arrayType {
 		// array with 2 elements is already sorted
 		return arr
 	} else {
-		//pivot is middle element of array
+		//pivot is middle element of array #this is bestcase of this algorithm
 		pivot := arr[len(arr)/2]
 		var less, greater, equal arrayType
 
